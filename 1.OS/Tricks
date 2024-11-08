@@ -1,0 +1,34 @@
+uname -a will also print the system information and it can show some interesting things like kernel version, hardware platform, etc.
+
+`whoami` will print the userName you logged on with
+
+`who` will show who is logged on.
+
+`w` will show what they are doing.
+
+
+HARDWARE INFORMATION
+`lshw` can give some detailed information on the hardware configuration, and there’s a bunch of switches we can use to filter the information we want to see, but it’s not the only tool we use to check hardware with. Some of the used commands are:
+
+`lscpu` to display information about the CPU architecture
+`lsblk` to list block devices
+`lspci` to list all PCI devices
+`lsusb` to list USB devices
+
+
+MEASURE MEMORY AND CPU USAGE
+ use free -h . 
+ vmstat will also give some memory statistics.
+
+top is like a Task Manager for Linux, it will display the processes and the consumption of resources. 
+htop is an interactive, prettier version.
+
+MEASURE DISK USAGE
+Use df -h to see disk space usage, but go with du -h if you want to estimate the size of your folders.
+
+MEASURE NETWORK USAGE
+You will have a general idea of your network interfaces and their IP addresses by using ifconfig or its modern substitute ip address, but it won’t show you bandwidth usage.
+
+For that we have netstat -i in a more static view and ifstat in a continuous view. To interrupt ifstat just use CTRL+C.
+
+But if you want more info on that traffic, sudo iftop -i eth0 is a nice display. Change eth0 for the interface you wish to capture traffic information. To exit the monitor view, type q to quit.
