@@ -7,8 +7,8 @@ A repository documenting my DevOps learning journey, featuring notes, code snipp
 ## 1. Operating System and Basics
 ### Linux
 - **Description**: An open-source operating system widely used for servers and development environments. Fundamental knowledge of Linux is crucial for DevOps practices.
-- **Website**: [kernel.org](https://www.kernel.org/)
-- **Learning Resource**: [Linux Journey](https://linuxjourney.com/), [The Linux Foundation Training](https://training.linuxfoundation.org/)
+- **Website**: [linuxcommand.org](https://linuxcommand.org/index.php)
+- **Learning Resource**: [Linux Journey](https://linuxjourney.com/)
 
 ## 2. Version Control Systems
 ### Git
