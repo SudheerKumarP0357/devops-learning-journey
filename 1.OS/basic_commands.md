@@ -95,7 +95,6 @@ The `chmod` command changes file permissions (read, write, execute).
 **Examples:**
 
 ```bash
-Copy code
 $ chmod 755 file1.txt  # Give read, write, and execute permissions to the owner, and read & execute to others
 $ chmod +x script.sh  # Add execute permission to a script
 ```
@@ -105,7 +104,6 @@ The `chown` command changes the owner and/or group of a file.
 
 **Examples:**
 ```bash
-Copy code
 $ chown user:group file1.txt  # Change the owner and group of file1.txt
 ```
 
@@ -114,7 +112,6 @@ The `ps` command shows the current running processes.
 
 **Examples:**
 ```bash
-Copy code
 $ ps aux  # Display all running processes
 ```
 
@@ -124,7 +121,6 @@ The `top` command provides a dynamic, real-time view of system processes.
 **Examples:**
 
 ```bash
-Copy code
 $ top  # Display real-time processes
 ```
 
@@ -134,7 +130,6 @@ The `grep` command searches for specific text within files.
 **Examples:**
 
 ```bash
-Copy code
 $ grep "error" file1.txt  # Search for "error" in file1.txt
 $ ps aux | grep "apache"  # Search for apache processes
 ```
@@ -145,7 +140,6 @@ The `df` command shows the disk space usage of your system.
 **Examples:**
 
 ```bash
-Copy code
 $ df -h  # Display disk space in human-readable format
 ```
 
@@ -155,7 +149,6 @@ The `du` command shows the disk usage of files and directories.
 **Examples:**
 
 ```bash
-Copy code
 $ du -sh /home/user  # Display the size of the /home/user directory
 ```
 
@@ -165,7 +158,6 @@ The `sudo` command allows a permitted user to execute a command as the superuser
 **Examples:**
 
 ```bash
-Copy code
 $ sudo apt-get update  # Run the apt-get update command with superuser privileges
 ```
 
@@ -175,7 +167,6 @@ The `history` command shows the previously executed commands.
 **Examples:**
 
 ```bash
-Copy code
 $ history  # Show command history
 ```
 
@@ -185,7 +176,6 @@ The `man` command displays the manual pages for a command.
 **Examples:**
 
 ```bash
-Copy code
 $ man ls  # View the manual for ls
 ```
 
@@ -195,7 +185,6 @@ The `find` command searches for files and directories.
 **Examples:**
 
 ```bash
-Copy code
 $ find /home/user -name "*.txt"  # Find all .txt files in /home/user
 ```
 
@@ -205,7 +194,6 @@ The `wget` command downloads files from the internet.
 **Examples:**
 
 ```bash
-Copy code
 $ wget https://example.com/file.txt  # Download file from the specified URL
 ```
 
@@ -215,7 +203,6 @@ The `curl` command transfers data using various network protocols.
 **Examples:**
 
 ```bash
-Copy code
 $ curl -O https://example.com/file.txt  # Download file using curl
 ```
 
@@ -225,9 +212,6 @@ The `shutdown` command shuts down or reboots the system.
 **Examples:**
 
 ```bash
-Copy code
 $ sudo shutdown now  # Shutdown immediately
 $ sudo shutdown -r now  # Reboot the system immediately
-sql
-Copy code
 ```
