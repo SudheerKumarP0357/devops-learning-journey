@@ -10,9 +10,8 @@ mkdir ~/tomcat
 cd ~/tomcat
 
 wget https://downloads.apache.org/tomcat/tomcat-10/v${tomcat_version}/bin/apache-tomcat-${tomcat_version}.tar.gz
-https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.34/bin/apache-tomcat-10.1.34.tar.gz
 
-sudo tar xzvf apache-tomcat-${tomcat_version}.tar.gz -C /opt/
+sudo tar xzvf apache-tomcat-${tomcat_version}.tar.gz -C /opt --strip-components=1
 
 sudo useradd -r tomcat
 sudo chown -R tomcat: /opt/apache-tomcat-${tomcat_version}
